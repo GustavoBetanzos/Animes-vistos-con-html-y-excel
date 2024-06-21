@@ -69,8 +69,10 @@ function agregarEpisodio(titulo) {
     // Encontrar el anime correspondiente en animeData
     var anime = animeData.find(a => a.titulo === titulo);
 
-    // Incrementar el número de episodios vistos
-    anime.epVistos++;
+    // Verificar si se puede agregar un episodio más
+    if (anime.epVistos < anime.noEpisodios) {
+        anime.epVistos++;
+    }
 
     // Volver a mostrar los animes en la página
     mostrarAnimes();
@@ -80,7 +82,7 @@ function restarEpisodio(titulo) {
     // Encontrar el anime correspondiente en animeData
     var anime = animeData.find(a => a.titulo === titulo);
 
-    // Verificar que el número de episodios vistos sea mayor que 0 antes de restar
+    // Verificar si se puede restar un episodio
     if (anime.epVistos > 0) {
         anime.epVistos--;
     }
