@@ -17,7 +17,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 titulo: values[0],
                 epVistos: parseInt(values[1]),
                 noEpisodios: parseInt(values[2]),
-                imagen: values[3]
+                imagen: values[3],
+                estado: values[4]
             });
         }
 
@@ -36,20 +37,29 @@ function mostrarAnimes() {
         // Calcular el porcentaje con solo dos decimales
         var porcentajeVisto = ((anime.epVistos / anime.noEpisodios) * 100).toFixed(2);
 
+        // Determinar el color de la barra de progreso
+        var progressBarColor = 'green'; // Por defecto, verde
+        if (porcentajeVisto < 33) {
+            progressBarColor = 'red'; // Menor a 33, rojo
+        } else if (porcentajeVisto < 66) {
+            progressBarColor = 'yellow'; // Entre 33 y 66, amarillo
+        }
+
         // Crear un elemento para el nuevo anime
         var animeElement = document.createElement("div");
         animeElement.classList.add("anime");
         animeElement.innerHTML = `
-            <p>${anime.titulo}</p>
             <img src="${anime.imagen}" alt="Imagen del anime">
+            <p>${anime.titulo}</p>
             <div class="progress-bar">
-                <div class="progress" style="width: ${porcentajeVisto}%;"></div>
+                <div class="progress" style="width: ${porcentajeVisto}%; background-color: ${progressBarColor};"></div>
             </div>
-            <p>Episodios Vistos: ${anime.epVistos}</p>
+            <p>Estado: ${anime.estado}</p>
+            <p>Episodios Vistos: ${anime.epVistos}         <button onclick="restarEpisodio('${anime.titulo}')">-</button>
+            <button onclick="agregarEpisodio('${anime.titulo}')">+</button></p>
             <p>Episodios Totales: ${anime.noEpisodios}</p>
             <p>Porcentaje Visto: ${porcentajeVisto}%</p>
-            <button onclick="agregarEpisodio('${anime.titulo}')">+</button>
-            <button onclick="restarEpisodio('${anime.titulo}')">-</button>
+            
         `;
         animesContainer.appendChild(animeElement);
     });
