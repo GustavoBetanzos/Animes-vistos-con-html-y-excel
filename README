@@ -1,1 +1,17 @@
+# Descripción
 
+Este proyecto personal te permite llevar un registro de animes vistos mediante una interfaz web que se conecta a una tabla en formato CSV.
+
+## Requisitos
+
+Para poder ejecutar correctamente este programa, asegúrate de tener instalados los siguientes componentes:
+- Node.js
+- http-server: Se instala desde la terminal con el comando: `npm install -g http-server`
+
+## Instrucciones de Uso
+
+1. Navega hasta la carpeta de tu proyecto desde la terminal. Esta carpeta debe contener tu archivo HTML y el archivo CSV.
+2. Ejecuta el siguiente comando en la terminal: `http-server`
+3. Abre tu navegador web y visita la URL proporcionada por http-server.
+
+Con estos pasos, podrás acceder a la interfaz web y gestionar la lista de animes vistos de manera eficiente.
