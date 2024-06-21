@@ -1,41 +1,41 @@
-Titulo,EpVistos,NoEpisodios,Imagen
-My Hero Academia,139,139,images/1.jpg
-Kimetsu no Yaiba,56,56,images/2.jpg
-Vinland Saga,48,48,images/3.webp
-One Piece,1093,1103,images/4.jpeg
-Spy x Family,17,37,images/5.webp
-Hunter x Hunter,146,146,images/6.jpg
-Solo Leveling,12,12,images/7.jpg
-Monster,74,74,images/8.jpg
-Your Lie in April,17,22,images/9.jpg
-Kotaro vive solo,
-One Punch Man,
-Kaiju No.8,
-Viral Hit,5,5,
-Haikyu!!,
-Mushoku Tensei Jobless Reincarnation,
-Wind Breaker,
-Tokyo Revngers,
-Tokyo Ghoul,
-Blue Lock,
-Go Go Loser Ranger!,1,
-Nanatsu No Taizai,86,100,
-Blac Clover,
-Mob Psycho 100,
-Dr. Stone,
-Jigokuraku Hell's Paradise,
-Jujutsu Kaisen,
-Chainsaw Man,
-Danganronpa: The Animation,13,13,
-Mashle: Magic and Muscles,
-Heavenly Delusion,7
-My home hero,4
-Zom 100: Bucket List of the Dead,12,12
-Record of Ragkarok,
-Ranking of Kings,
-Death Note,
-Monsters el infierno del dragón,
-Attack On Titan,
-Assasination Clasroom,
-Pluto,0,8,
-Tiger Mask W,0,38,
+Titulo,EpVistos,NoEpisodios,Imagen,Estado
+My Hero Academia,139,139,images/1.jpg,En emisión
+Kimetsu no Yaiba,56,56,images/2.jpg,En emisión
+Vinland Saga,48,48,images/3.webp,En emisión
+One Piece,1093,1103,images/4.jpeg,En emisión
+Spy x Family,17,37,images/5.webp,En emisión
+Hunter x Hunter,146,146,images/6.jpg,Pausado
+Solo Leveling,12,12,images/7.jpg,En emisión
+Monster,74,74,images/8.jpg,Finalizado
+Your Lie in April,17,22,images/9.jpg,Finalizado
+Kotaro vive solo,10,10,images/10.webp,Pausado
+One Punch Man,24,24,images/11.webp,En emisión
+Kaiju No.8,4,4,images/12.jpg,En emisión
+Viral Hit,5,5,images/13.jpg,En emisión
+Haikyu!!,86,86,images/14.jpg,Pausado
+Mushoku Tensei Jobless Reincarnation,42,48,images/15.webp,En emisión
+Wind Breaker,6,6,images/16.webp,En emisión
+Tokyo Revengers,38,50,images/17.jpg,En emisión
+Tokyo Ghoul,24,48,images/18.jpg,Finalizado
+Blue Lock,24,24,images/19.webp,En emisión
+Go Go Loser Ranger!,1,4,images/20.jpg,En emisión
+Nanatsu No Taizai,86,100,images/21.webp,Finalizado
+Black Clover,170,170,images/22.jpg,Pausado
+Mob Psycho 100,38,38,images/23.jpg,Finalizado
+Dr. Stone,59,59,images/24.webp,En emisión
+Jigokuraku Hell's Paradise,13,13,images/25.jpg,En emisión
+Jujutsu Kaisen,47,47,images/26.jpg,En emisión
+Chainsaw Man,12,12,images/27.jpg,En emisión
+Danganronpa: The Animation,13,13,images/28.jpg,Finalizado
+Mashle: Magic and Muscles,25,25,images/29.jpg,En emisión
+Heavenly Delusion,7,13,images/30.jpg,Pausado
+My home hero,4,12,images/31.webp,Finalizado
+Zom 100: Bucket List of the Dead,12,12,images/32.jpg,En emisión
+Record of Ragkarok,27,27,images/33.webp,En emisión
+Ranking of Kings,33,33,images/34.webp,Pausado
+Death Note,37,37,images/35.jpg,Finalizado
+Monsters el infierno del dragón,1,1,images/36.webp,Finalizado
+Attack On Titan,91,91,images/37.jpg,Finalizado
+Assasination Clasroom,9,47,images/38.jpg,Finalizado
+Pluto,0,8,images/39.webp,Finalizado
+Tiger Mask W,0,38,images/40.jpg,Finalizado
